@@ -31,4 +31,14 @@ def test_calcular_total_valido():
 def test_calcular_total_negativo():
     assert calcular_total(-10, 2) == 0
 ```
-4. Pipeline de Integração ContínuaItemDescriçãoNome do workflowCI Quality PipelineEvento de disparoPush na branch mainLink do workflowquality.ymlLink da execuçãoExecução #3Evidência de sucesso (Pipeline Verde):5. Indicadores de QualidadeIndicadorValorQuantidade de testes executados2Quantidade de testes aprovados2Quantidade de testes com falha0Status final do pipelineSucesso6. Registro de DefeitoItemDescriçãoTítulo do defeitoErro na fórmula de cálculo do totalSeveridadeAltaLink da Issue[COLE AQUI O LINK DA NOVA ISSUE DE BUG]Descrição:O defeito foi introduzido propositalmente alterando a lógica de cálculo. Foi identificado automaticamente pelo pipeline (falha no pytest). A correção foi realizada revertendo o código para a lógica original.
+## 4. Pipeline de Integração Contínua
+
+| Item | Descrição |
+|---|---|
+| **Nome do workflow** | CI Quality Pipeline |
+| **Evento de disparo** | Push na branch main |
+| **Link do workflow** | [quality.yml](https://github.com/MiguelVencato/Atividade-PBL-Aula17/blob/main/.github/workflows/quality.yml) |
+| **Link da execução** | Execução #3 |
+<img width="1351" height="175" alt="image" src="https://github.com/user-attachments/assets/0a0ee998-5d51-4b96-a786-cd74b6d771ce" />
+
+5. Indicadores de QualidadeIndicadorValorQuantidade de testes executados2Quantidade de testes aprovados2Quantidade de testes com falha0Status final do pipelineSucesso6. Registro de DefeitoItemDescriçãoTítulo do defeitoErro na fórmula de cálculo do totalSeveridadeAltaLink da Issue[COLE AQUI O LINK DA NOVA ISSUE DE BUG]Descrição:O defeito foi introduzido propositalmente alterando a lógica de cálculo. Foi identificado automaticamente pelo pipeline (falha no pytest). A correção foi realizada revertendo o código para a lógica original.
