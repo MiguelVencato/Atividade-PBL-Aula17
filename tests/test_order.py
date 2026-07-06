@@ -1,4 +1,3 @@
-# tests/test_order.py
 from src.order import calcular_total
 
 def test_calcular_total_valido():

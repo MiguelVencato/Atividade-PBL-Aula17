@@ -1,6 +1,6 @@
 name: CI Quality Pipeline
 
-on: [push] # Dispara toda vez que você enviar código
+on: [push] 
 
 jobs:
   test:
