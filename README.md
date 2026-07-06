@@ -8,11 +8,11 @@ Markdown# Atividade PBL - Aula 17: Qualidade de Software
 | :--- | :--- |
 | **Nome do repositório** | Atividade-PBL-Aula17 |
 | **Link do repositório** | [https://github.com/MiguelVencato/Atividade-PBL-Aula17](https://github.com/MiguelVencato/Atividade-PBL-Aula17) |
-
 **Estrutura de diretórios:**
+
 <img width="380" height="312" alt="image" src="https://github.com/user-attachments/assets/b0b57db4-df0b-491f-84c2-0b5b3159c74c" />
 
-2. Planejamento da FuncionalidadeItemDescriçãoTítulo da IssueImplementar cálculo de total de pedidoObjetivoGarantir o cálculo correto do preço total de itens.Link da IssueLink da Issue #13. Teste AutomatizadoItemDescriçãoTipo de testeUnitárioObjetivoValidar cálculo de valores positivos e negativosLink do arquivotest_order.pyCódigo do teste:Pythonfrom src.order import calcular_total
+2. Planejamento da FuncionalidadeItemDescriçãoTítulo da IssueImplementar cálculo de total de pedidoObjetivoGarantir o cálculo correto do preço total de itens.Link da IssueLink da Issue #1
 
 def test_calcular_total_valido():
     assert calcular_total(10.0, 2) == 20.0
