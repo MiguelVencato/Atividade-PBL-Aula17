@@ -22,11 +22,13 @@ Markdown# Atividade PBL - Aula 17: Qualidade de Software
 | **Objetivo** | Garantir o cálculo correto do preço total de itens. |
 | **Link da Issue** | [Link da Issue #1](https://github.com/MiguelVencato/Atividade-PBL-Aula17/issues/1) |
 
+## 3. Testes Unitários
 
-
+```python
 def test_calcular_total_valido():
     assert calcular_total(10.0, 2) == 20.0
 
 def test_calcular_total_negativo():
     assert calcular_total(-10, 2) == 0
+```
 4. Pipeline de Integração ContínuaItemDescriçãoNome do workflowCI Quality PipelineEvento de disparoPush na branch mainLink do workflowquality.ymlLink da execuçãoExecução #3Evidência de sucesso (Pipeline Verde):5. Indicadores de QualidadeIndicadorValorQuantidade de testes executados2Quantidade de testes aprovados2Quantidade de testes com falha0Status final do pipelineSucesso6. Registro de DefeitoItemDescriçãoTítulo do defeitoErro na fórmula de cálculo do totalSeveridadeAltaLink da Issue[COLE AQUI O LINK DA NOVA ISSUE DE BUG]Descrição:O defeito foi introduzido propositalmente alterando a lógica de cálculo. Foi identificado automaticamente pelo pipeline (falha no pytest). A correção foi realizada revertendo o código para a lógica original.
