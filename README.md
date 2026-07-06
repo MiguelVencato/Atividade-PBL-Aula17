@@ -12,12 +12,16 @@ Markdown# Atividade PBL - Aula 17: Qualidade de Software
 
 <img width="380" height="312" alt="image" src="https://github.com/user-attachments/assets/b0b57db4-df0b-491f-84c2-0b5b3159c74c" />
 
+
+
 2. Planejamento da Funcionalidade
 | Item | Descrição |
 | :--- | :--- |
 | **Título da Issue** | Implementar cálculo de total de pedido |
 | **Objetivo** | Garantir o cálculo correto do preço total de itens. |
 | **Link da Issue** | [Link da Issue #1](https://github.com/MiguelVencato/Atividade-PBL-Aula17/issues/1) |
+
+
 
 def test_calcular_total_valido():
     assert calcular_total(10.0, 2) == 20.0
