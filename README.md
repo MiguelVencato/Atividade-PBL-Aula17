@@ -14,9 +14,10 @@ Markdown# Atividade PBL - Aula 17: Qualidade de Software
 
 
 
-2. Planejamento da Funcionalidade
+## 2. Planejamento da Funcionalidade
+
 | Item | Descrição |
-| :--- | :--- |
+|---|---|
 | **Título da Issue** | Implementar cálculo de total de pedido |
 | **Objetivo** | Garantir o cálculo correto do preço total de itens. |
 | **Link da Issue** | [Link da Issue #1](https://github.com/MiguelVencato/Atividade-PBL-Aula17/issues/1) |
